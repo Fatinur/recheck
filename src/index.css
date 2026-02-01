@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Science+Gothic:wght@100..900&display=swap');
+
+
+@import "tailwindcss";
+
+@theme{
+   --font-outfit: 'Outfit', sans-serif;
+   --font-dm-sans: 'DM Sans', sans-serif;
+   --color-prim:#734425;
+   --color-sec: #C26819;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-monsterrat);
+   background-color: #F5ECE4;
+    font-weight: 500;
+
+   
+
+    
+   
+
+}
+
+
+.container{
+    width: 80vw;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    padding: 0 1vw;
+}   
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+   
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.box{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: #552c10 1px solid;
+    border-radius: 20px;
+    width: 25vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+@media (max-width: 767px) {
+    .box {
+        width: 80vw;
+        height: 25vh;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
