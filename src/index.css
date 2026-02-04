@@ -6,6 +6,7 @@
 @theme{
    --font-outfit: 'Outfit', sans-serif;
    --font-dm-sans: 'DM Sans', sans-serif;
+   --font-montserrat: 'Montserrat', sans-serif;  /* Add this line */
    --color-prim:#734425;
    --color-sec: #C26819;
 }
@@ -18,15 +19,9 @@
 }
 
 body{
-    font-family: var(--font-monsterrat);
-   background-color: #F5ECE4;
+    font-family: var(--font-montserrat);  /* Fixed the typo too */
+    background-color: #F5ECE4;
     font-weight: 500;
-
-   
-
-    
-   
-
 }
 
 
